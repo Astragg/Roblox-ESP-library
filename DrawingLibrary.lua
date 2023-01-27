@@ -7,8 +7,8 @@ local ESPTable = {}
 
 getgenv().Config = {
     Enabled = true;
-    BoxVisible = true;
-    TextVisible = true;
+    BoxVisible = false;
+    TextVisible = false;
 }
 
 local function GetDistanceFromClient(Position)
